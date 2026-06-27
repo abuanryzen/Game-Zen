@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: #d3d3d3;
+}
+
+#nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: auto; /* Adjust height to accommodate text */
+    width: 100%;
+    background: #001380;
+    color: aliceblue;
+    border-bottom: 20px solid white;
+    box-shadow: 0px 10px 14px 0px rgba(0, 0, 0, 0.35);
+    text-align: center;
+    padding: 20px;
+    padding-top: 5px;
+
+}
+
+.header-content {
+    text-align: center;
+    max-width: 500px;
+}
+
+.header-content p {
+    margin: 5px 0;
+}
+
+.ryzen {
+    width: 80px;
+    height: 80px;
+    margin-right: 25px;
+    margin-top; 10px;
+}
+
+.ryzen2 {
+    width: 90px;
+    height: 80px;
+    margin-left: 25px;
+    margin-top; 10px;
+}
+
+.Description {
+    margin-top: 50px;
+    width: 800px;
+    border: none;
+    border-radius: 0px 16px 0px 15px;
+    text-align: center;
+    font-size: 30px;
+    padding: 50px;
+    margin-bottom: 100px;
+    box-shadow: 15px 15px 10px 0px rgba(0, 0, 0, 0.35);
+    background: #ffffff;
+}
+
+#mainDisplay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: 70%;
+    border: none;
+    background: #ffffff;
+    margin: 20px;
+}
+
+.intro h2 {
+    padding-left: 25px;
+    border-bottom: none;
+    background: #000f80;
+    color: #f9f9f9;
+    margin-top: 0px;
+    padding-bottom: 5px;
+    padding-top: 20px;
+}
+
+.intro p {
+    display: flex;
+    align-self: center;
+    width: 60%;
+    text-align: center;
+}
+
+.intro div {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 50px;
+    font-style: italic;
+    display: flex;
+    align-self: center;
+}
+
+.courses {
+    display: flex;
+    flex-direction: column;
+    height: 525px;
+    width: 70%;
+    border: none;
+    margin: 5px;
+    background: #ffffff;
+}
+
+.courses h2 {
+    padding-left: 25px;
+    border-bottom: none;
+    color: #f9f9f9;
+    margin-top: 0px;
+    padding-bottom: 5px;
+    padding-top: 20px;
+    background: #1a0080;
+}
+
+.opportunities {
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    width: 70%;
+    border: none;
+    margin: 10px;
+    background: #ffffff;
+    
+}
+
+.opportunities h2 {
+    padding-left: 55px;
+    border-bottom: none;
+    color: #f9f9f9;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-top: 40px;
+    background: #000080;
+}
+
+#Descriptions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 9.5px;
+}
+
+#Descriptions div {
+    width: 500px;
+    height: 600px;
+}
+
+#Descriptions div span {
+    font-size: 20px;
+    font-weight: 700;
+    height: 50px;
+    color: #0521ab;
+    display: block;
+}
+
+#address {
+    display: flex;
+    height: 250px;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    background-color: #0008e5;
+}
+
+#address p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#address img {
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+}
